@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-003" />
+        <module name="consumer-feign-003" />
+        <module name="common-003" />
+        <module name="service-api-003" />
+        <module name="provider-003" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common-003" options="-parameters" />
+      <module name="consumer-feign-003" options="-parameters" />
+      <module name="eureka-003" options="-parameters" />
+      <module name="provider-003" options="-parameters" />
+      <module name="service-api-003" options="-parameters" />
+    </option>
+  </component>
+</project>
